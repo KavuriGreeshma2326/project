@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    color: Black;
+  }
+  body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./sun\ set.jpeg");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+div{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+.a,.b,.c,.d,.e{
+    border: 5px solid white;
+    background-color: lightcyan;
+    border-radius: 50px;
+    height: 200px;
+    width:200px; 
+    font-size: 15pt;
+    padding: 10px;
+    visibility: hidden;
+}
+.f,.g,.h,.i,.j{
+    border: 5px solid white;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    background-image: url("./main.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    background-color: lightgrey;
+    font-size: 9pt;
+    font-weight: bold;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 16pt;
+}
